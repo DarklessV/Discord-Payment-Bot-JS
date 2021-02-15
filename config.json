@@ -1,0 +1,22 @@
+{
+  "paypal": {
+    "mode": "CHANGE ME",
+    "appID": "CHANGE ME",
+    "secretKey": "CHANGE ME",
+    "currency": "CHANGE ME",
+    "businessName": "CHANGE ME",
+    "terms": "CHANGE ME",
+    "billCheck": 30
+  },
+  "embed": {
+    "errorColor": "#e50113",
+    "pendingColor": "#ff8d00",
+    "successColor": "#1bf207",
+    "errImg": "https://i.imgur.com/uS57EFF.png"
+  },
+  "Bot": {
+    "prefix": "CHANGE ME",
+    "authorizedRole": "CHANGE ME",
+    "token": "CHANGE ME"
+  }
+}
