@@ -1,5 +1,5 @@
 const loadCommands = (bot) => {
-    const cmds = bot.fs.readdirSync(`../commands/`).filter(d => d.endsWith('.js'));
+    const cmds = bot.fs.readdirSync(`./commands/`).filter(d => d.endsWith('.js'));
     if(cmds === undefined || cmds.length === 0) return console.log('I couldn\'t find any command file.');
 
     for (let file of cmds) {
